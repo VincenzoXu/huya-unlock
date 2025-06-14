@@ -57,7 +57,7 @@
         }
         setTimeout(() => {
           targetElement[0].click()
-          if ($(".player-narrowpage").size() === 0 && $(".player-narrowscreen").size() === 0) {
+          if ($(".player-narrowpage").size() === 0 && $(".player-narrowscreen").size() === 0 && $("#match-preview__swiper").size() === 0) {
             $("#player-fullpage-btn:first").click()
           }
         }, 1000)
